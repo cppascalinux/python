@@ -1,0 +1,7 @@
+f1=open('file.in','rb')
+f2=open('file.out','wt')
+print(type(f1))
+s=f1.read()
+print(s.decode('utf-8'))
+f2.write(s.decode('utf-8'))
+print('qwqwqwq')
